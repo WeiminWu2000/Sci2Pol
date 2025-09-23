@@ -35,9 +35,9 @@ conda activate Sci2Pol
 pip install -r requirements.txt
 ```
 
-### Running the code needs inference API for LLMs; some of them are not free.
+## LLM Evaluation on Sci2Pol-Bench
 
-### Download Dataset from Huggerface
+### Download Sci2Pol Dataset from Huggerface
 
 ```
 from huggingface_hub import hf_hub_download
@@ -53,7 +53,7 @@ for file in task_files:
     )
 ```
 
-## LLM Inference for Different Tasks
+### LLM Inference for Different Tasks
 
 Example: evaluate the response of grok-3-beta on task1.
 
@@ -61,14 +61,14 @@ Example: evaluate the response of grok-3-beta on task1.
 python LLM_infer.py --model grok/grok-3-beta --task task1
 ```
 
-### Evaluated Models
+###$ Evaluated Models
 'meta-llama/llama-3.1-8b-instruct', 'meta-llama/llama-3.3-70b-instruct', 'meta-llama/llama-4-maverick', 'mistralai/mistral-large-2411', 'qwen/qwen-3-8b', 'qwen/qwen-3-235b-a22b', 'deepseek/deepseek-chat-v3-0324', 'deepseek/deepseek-r1', 'google/gemma-3-12b-it', 'google/gemma-3-27b-it', 'grok/grok-3-beta', 'gpt/gpt-4o', 'anthropic/claude-3-7-sonnet'
 
 
-### Tasks
+#### Tasks
 task1 ~ task18
 
-## Evaluation of Inference Results for All 18 Tasks (Use Gemini-2.5-Pro as Judge)
+### Evaluation of Inference Results for All 18 Tasks (Use Gemini-2.5-Pro as Judge)
 
 ```
 python Eval.py --model grok/grok-3-beta
