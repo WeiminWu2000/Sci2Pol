@@ -1,7 +1,8 @@
-# Sci2Pol
-Sci2Pol-Bench and Sci2Pol-Corpus, the first benchmark and training dataset for evaluating and fine-tuning large language models (LLMs) on policy brief generation from a scientific paper.
+# Sci2Pol: Sci2Pol: Evaluating and Fine-tuning LLMs on Scientific-to-Policy Brief Generation
 
-# Sci2Pol-Bench: A Benchmark for LLM Policy Brief Generation from Scientific Research
+The first benchmark and training dataset for evaluating and fine-tuning large language models (LLMs) on policy brief generation from a scientific paper.
+
+## Sci2Pol-Bench
 
 <img width="673" alt="Screenshot 2025-05-16 at 3 24 05 AM" src="https://github.com/user-attachments/assets/e23908cb-e73e-43de-9b69-ffad7d7c2334" />
 
