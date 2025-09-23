@@ -1,12 +1,16 @@
-# Sci2Pol: Sci2Pol: Evaluating and Fine-tuning LLMs on Scientific-to-Policy Brief Generation
+# Sci2Pol: Evaluating and Fine-tuning LLMs on Scientific-to-Policy Brief Generation
 
 The first benchmark and training dataset for evaluating and fine-tuning large language models (LLMs) on policy brief generation from a scientific paper.
 
 ## Dataset Sources
 
-### Sci2Pol-Bench (18 tasks): https://huggingface.co/datasets/Weimin2000/Sci2Pol-Bench
+### Sci2Pol-Bench (18 tasks): 
 
-### Sci2Pol-Corpus (639 scientific paper-policy brief pairs before and after in-context polishing)
+https://huggingface.co/datasets/Weimin2000/Sci2Pol-Bench
+
+### Sci2Pol-Corpus: 
+
+639 scientific paper-policy brief pairs before and after in-context polishing.
 
 Before in-context polishing: https://huggingface.co/datasets/Weimin2000/Sci2Pol-Corpus/blob/main/Sci2Pol_Corpus_wo_polish.json
 
