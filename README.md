@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ### Huggerface link
 
-https://huggingface.co/datasets/Weimin2000/Sci2Pol_Bench
+https://huggingface.co/datasets/Weimin2000/Sci2Pol-Bench
 
 ### Download Dataset from Huggerface
 
