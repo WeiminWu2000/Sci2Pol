@@ -1,4 +1,4 @@
-# Sci2Pol: Evaluating and Fine-tuning LLMs on Scientific-to-Policy Brief Generation
+# [Sci2Pol: Evaluating and Fine-tuning LLMs on Scientific-to-Policy Brief Generation](https://arxiv.org/abs/2509.21493)
 
 The first benchmark and training dataset for evaluating and fine-tuning large language models (LLMs) on policy brief generation from a scientific paper.
 
